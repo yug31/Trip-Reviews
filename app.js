@@ -20,7 +20,14 @@ mongoose.set('useNewUrlParser', true);
 mongoose.set('useUnifiedTopology', true);
 
 // mongoose.connect("mongodb://localhost/yelp_camp");
-mongoose.connect("mongodb+srv://dyb:barcelona@cluster0-fik23.mongodb.net/test?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://dyb:barcelona@cluster0-fik23.mongodb.net/test?retryWrites=true&w=majority", {
+  useNewUrlParser: true,
+  useCreateIndex: true
+}).then(() => {
+  console.log('Connected!');
+}).catch(err => {
+  console.log('ERROR:', err.message);
+});
 app.use(bodyParser.urlencoded({
   extended: true
 }));
