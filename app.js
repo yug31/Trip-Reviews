@@ -20,8 +20,8 @@ mongoose.set('useNewUrlParser', true);
 mongoose.set('useUnifiedTopology', true);
 
 
-
-mongoose.connect(process.env.DATABASEURL, {
+var url = process.env.DATABASEURL || "process.env.DATABASEURL";
+mongoose.connect(url, {
   useNewUrlParser: true,
   useCreateIndex: true
 }).then(() => {
