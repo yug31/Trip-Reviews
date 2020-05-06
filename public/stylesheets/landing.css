@@ -10,6 +10,9 @@ body {
 #landing-header h1 {
   color: #fff;
 }
+.slideshow{
+  list-style: none;
+}
 /* .slideshow {
   position: fixed;
   width: 100%;
