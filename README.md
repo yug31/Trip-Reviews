@@ -5,6 +5,7 @@ A full-stack Node.js project from my web dev course with RESTful routing
 ![landing](./images/landing.png)
 * Add Landing Page
 * Add Campgrounds Page that lists all campgrounds
+
 Each Campground has:
 * Name
 * Image
