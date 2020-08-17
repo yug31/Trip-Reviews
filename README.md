@@ -73,11 +73,13 @@ Each Campground has:
 * Define User model
 
 ## Authentication Pt. 2 - Register
+![signup](./images/sign-up.png)
 * Configure Passport
 * Add register routes
 * Add register template
 
 ## Authentication Pt. 3 - Login
+![login](./images/login.png)
 * Add login routes
 * Add login template
 
