@@ -55,6 +55,7 @@ Each Campground has:
 * Display comments on campground show page
 
 ## Comment New/Create
+![comment-add](./images/comment-add.png)
 * Discuss nested routes
 * Add the comment new and create routes
 * Add the new comment form
