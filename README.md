@@ -102,6 +102,7 @@ Each Campground has:
 * Save username+id to newly created campground
 
 ## Editing Campgrounds
+![edit](./images/edit.png)
 * Add Method-Override
 * Add Edit Route for Campgrounds
 * Add Link to Edit Page
@@ -112,6 +113,7 @@ Each Campground has:
 * Add Delete button
 
 ## Authorization Part 1: Campgrounds
+![user-post](./images/delete.png)
 * User can only edit his/her campgrounds
 * User can only delete his/her campgrounds
 * Hide/Show edit and delete buttons
