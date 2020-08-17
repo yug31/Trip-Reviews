@@ -117,6 +117,7 @@ Each Campground has:
 * Hide/Show edit and delete buttons
 
 ## Editing Comments
+![edit-comments](./images/comment-edit.png)
 * Add Edit route for comments
 * Add Edit button
 * Add Update route
@@ -128,10 +129,14 @@ Campground Edit Route: /campgrounds/:id/edit Comment Edit Route: /campgrounds/:i
 Campground Destroy Route: /campgrounds/:id Comment Destroy Route: /campgrounds/:id/comments/:comment_id
 
 ## Authorization Part 2: Comments
+![delete-comments](./images/comment-delete.png)
 * User can only edit his/her comments
 * User can only delete his/her comments
 * Hide/Show edit and delete buttons
 * Refactor Middleware to a single file
+
 ## Adding in Flash!
+![flash1](./images/flash1.png)
+![flash2](./images/flash2.png)
 * Install and configure connect-flash
 * Add bootstrap alerts to header
